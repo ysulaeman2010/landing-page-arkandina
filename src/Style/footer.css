@@ -1,0 +1,61 @@
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 560px;
+}
+
+.footer__wrapper {
+  background: #f8f8f9;
+  height: 500px;
+  width: 1350px;
+}
+
+.footer__contactus {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+}
+
+.footer__contactus p {
+  width: 250px;
+  text-align: right;
+  margin-left: auto;
+}
+
+.footer__contactus p:nth-child(3) {
+  margin-bottom: 15px;
+}
+
+.footer__contactus__logo {
+  margin-left: auto;
+  height: 60px;
+  width: 241px;
+  margin-bottom: 15px;
+}
+
+.footer__contactus__socialmedia img:not(:last-child) {
+  margin-right: 5px;
+}
+
+.footer__map {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+}
+
+.footer__bottom {
+  background: #e4e4e4;
+  height: 60px;
+  width: 1350px;
+}
+
+.footer__bottom p {
+  font-size: 14px;
+  margin-left: 35px;
+}
+
+.map {
+  width: 500px;
+  height: 400px;
+}
+/*# sourceMappingURL=footer.css.map */

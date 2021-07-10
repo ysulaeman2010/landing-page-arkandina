@@ -1,0 +1,127 @@
+.header nav {
+  height: 5.625rem;
+  padding: 2.813rem;
+}
+
+@media (max-width: 25.875rem) {
+  .header nav {
+    height: 4.375rem;
+    padding: 0.875rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  .header nav {
+    height: 4.375rem;
+    padding: 0.875rem;
+  }
+}
+
+.header__logo img {
+  width: 15.063rem;
+  height: 3.75rem;
+}
+
+@media (max-width: 25.875rem) {
+  .header__logo img {
+    width: 7.25rem;
+    height: 1.805rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  .header__logo img {
+    width: 7.25rem;
+    height: 1.805rem;
+  }
+}
+
+.header__links a {
+  position: relative;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.header__links a:not(:last-child) {
+  margin-right: 2.125rem;
+}
+
+.header__links a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.125rem;
+  left: 0;
+  right: 0;
+  bottom: -1.563rem;
+  background: #78aaff;
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.header__links a:hover {
+  font-weight: bold;
+}
+
+.header__links a:hover::before {
+  opacity: 1;
+}
+
+.header__right a:not(:last-child) {
+  margin-right: 2.125rem;
+}
+
+.header__button {
+  border: 0.063rem solid #414042;
+  width: 6.25rem;
+  height: 2.5rem;
+}
+
+.header__button:hover {
+  background: #414042;
+  color: #fff;
+}
+
+.header__menu {
+  border: 0.063rem solid #414042;
+  width: 2rem;
+  height: 2rem;
+}
+
+.header__menu span {
+  display: block;
+  width: 1.25rem;
+  height: 0.125rem;
+  background: #414042;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.header__menu span:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
+.header__menu__mobile span {
+  display: block;
+  width: 1.25rem;
+  height: 0.125rem;
+  background: #414042;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.header__menu__mobile span:nth-child(1) {
+  -webkit-transform: rotate(45deg) translate(0.125rem, 0.125rem);
+          transform: rotate(45deg) translate(0.125rem, 0.125rem);
+}
+
+.header__menu__mobile span:nth-child(3) {
+  -webkit-transform: rotate(135deg) translate(-0.125rem, 0.125rem);
+          transform: rotate(135deg) translate(-0.125rem, 0.125rem);
+}
+
+.header__menu__mobile span:nth-child(even) {
+  display: none;
+}
+/*# sourceMappingURL=navigation.css.map */

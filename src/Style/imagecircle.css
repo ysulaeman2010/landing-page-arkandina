@@ -1,0 +1,22 @@
+.imagecircle {
+  padding: 30px;
+}
+
+.imagecircle img {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.imagecircle h2 {
+  margin-top: 15px;
+}
+
+.imagecircle p {
+  text-align: center;
+  width: 400px;
+  word-wrap: break;
+}
+/*# sourceMappingURL=imagecircle.css.map */
